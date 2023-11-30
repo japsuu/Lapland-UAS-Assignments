@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingConventions", "CodingConventions\CodingConventions.csproj", "{91773207-7C8B-4448-8257-61DDB268BF28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4_MathApp", "Assignment4_MathApp\Assignment4_MathApp.csproj", "{9CFA6240-F021-460C-944B-06A9219398E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClassLibrary", "CommonClassLibrary\CommonClassLibrary.csproj", "{971EF11D-9F5F-4899-96EB-62965C2776B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91773207-7C8B-4448-8257-61DDB268BF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91773207-7C8B-4448-8257-61DDB268BF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91773207-7C8B-4448-8257-61DDB268BF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91773207-7C8B-4448-8257-61DDB268BF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFA6240-F021-460C-944B-06A9219398E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFA6240-F021-460C-944B-06A9219398E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFA6240-F021-460C-944B-06A9219398E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFA6240-F021-460C-944B-06A9219398E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971EF11D-9F5F-4899-96EB-62965C2776B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971EF11D-9F5F-4899-96EB-62965C2776B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971EF11D-9F5F-4899-96EB-62965C2776B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971EF11D-9F5F-4899-96EB-62965C2776B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

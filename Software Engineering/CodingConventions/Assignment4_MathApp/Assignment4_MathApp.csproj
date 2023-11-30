@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Calculator\" />
+    <Folder Include="Attachments\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonClassLibrary\CommonClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>
