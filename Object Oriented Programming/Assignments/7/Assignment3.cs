@@ -20,7 +20,7 @@ public class Assignment3 : ISchoolAssignment
     }
 
 
-    private List<string> GetAlerts()
+    private static List<string> GetAlerts()
     {
         List<string> result = new();
         XmlDocument alerts = new();
@@ -54,8 +54,9 @@ public class Assignment3 : ISchoolAssignment
                     continue;
                 
                 result.Add($"\n{contents[j]!.InnerText}");
+                
+                // Poimitaan varoituksen lisätiedot
                 string info = contents[j + 2]!.InnerText[(contents[j + 2]!.InnerText.IndexOf(' ') + 1)..];
-
                 result.Add($"Lisätietoa: {info}\n");
             }
         }
