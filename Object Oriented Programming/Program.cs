@@ -1,11 +1,11 @@
 ﻿
-using ObjectOrientedProgramming.Assignments._6;
+using ObjectOrientedProgramming.Assignments._7;
 
 namespace ObjectOrientedProgramming
 {
     internal static class Program
     {
-        private static readonly ISchoolAssignment Assignment = new Assignment2();
+        private static readonly ISchoolAssignment Assignment = new Assignment3();
         
         private static void Main(string[] args)
         {
