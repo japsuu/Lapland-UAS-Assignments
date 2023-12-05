@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!--
+Luo websivu, joka laskee kahden päivämäärän erotuksen. Voit esimerkiksi muuttaa
+päivämäärän ensin millisekunneiksi ja tehdä vähennyslaskun ja sen jälkeen laskea montako
+kokonaista päivää kyseinen erotus on.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web-kehitys - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Date difference</h1>
+        
+        <div class="date1" style="padding-bottom: 15px;">
+            <label for="date1">Date 1</label>
+            <input type="date" class="date1" id="date1Input" placeholder="Date 1">
+        </div>
+        
+        <div class="date2" style="padding-bottom: 15px;">
+            <label for="date2">Date 2</label>
+            <input type="date" class="date2" id="date2Input" placeholder="Date 2">
+        </div>
+
+        <button id="calculateButton">DIFFERENCE</button>
+
+        <div class="difference" style="padding-top: 15px;"></div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>

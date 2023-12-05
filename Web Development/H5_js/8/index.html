@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!--
+Toteuta web sivusto, jossa lasketaan kirjeen tai paketin postikulut seuraavan taulukon mukaisesti:
+Tyyppi, Perushinta, Painoluokka
+Tyyppi, Perushinta, < 200g, 200g - 500g, > 500g
+Kirje, 50 senttiä, ei lisäkuluja, 4 senttiä / 100g, 7 c / 100g
+Paketti, 2 euroa, ei lisäkuluja, 8 senttiä / 100g, 14 c / 100g
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web-kehitys - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Postage calculator</h1>
+        
+        <div class="type" style="padding-bottom: 15px;">
+            <label for="type">Type</label>
+            <select name="type" id="typeInput">
+                <option value="letter">Letter</option>
+                <option value="package">Package</option>
+            </select>
+        </div>
+
+        <div class="weight" style="padding-bottom: 15px;">
+            <label for="weight">Weight</label>
+            <input type="number" class="weight" id="weightInput" placeholder="Weight">
+        </div>
+
+        <button id="calculateButton">CALCULATE</button>
+
+        <div class="postage" style="padding-top: 15px;"></div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>

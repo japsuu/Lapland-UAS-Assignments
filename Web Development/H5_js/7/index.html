@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!--
+Tee ohjelma, jonka avulla voit laskea saamasi kilometrikorvaus tietyllä matkalla. Oletetaan,
+että kilometrikorvaus olisi 53c / km yksin matkustettaessa ja kasvaa kuljetettavien
+henkilömäärän 4 senttiä per kuljetettava henkilö.
+
+Tee kehittyneempi versio kilometrikorvaussovelluksesta siten, että otat huomioon
+• Montako matkustajaa on ollut kyydissä
+• millä kulkuneuvolla olet matkustanut seuraavan taulukon mukaisesti:
+Kulkuneuvo Korvauksen enimmäismäärä
+auto - 53 snt/km
+moottorivene, enintään 50 hv - 93 snt/km
+moottorivene, yli 50 hv - 135 snt/km
+moottorikelkka - 129 snt/km
+mönkijä - 121 snt/km
+moottoripyörä - 41 snt/km
+mopo - 22 snt/km
+muu kulkuneuvo - 13 snt/km
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web-kehitys - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Kilometre Allowance</h1>
+        
+        <div class="distance" style="padding-bottom: 15px;">
+            <label for="distance">Distance</label>
+            <input type="number" class="distance" id="distanceInput" placeholder="Distance">
+        </div>
+
+        <div class="passengers" style="padding-bottom: 15px;">
+            <label for="passengers">Passengers</label>
+            <input type="number" class="passengers" id="passengersInput" placeholder="Passengers">
+        </div>
+
+        <div class="vehicle" style="padding-bottom: 15px;">
+            <label for="vehicle">Vehicle</label>
+            <select name="vehicle" id="vehicleInput">
+                <option value="auto">Auto</option>
+                <option value="moottorivene, enintään 50 hv">Moottorivene, enintään 50 hv</option>
+                <option value="moottorivene, yli 50 hv">Moottorivene, yli 50 hv</option>
+                <option value="moottorikelkka">Moottorikelkka</option>
+                <option value="mönkijä">Mönkijä</option>
+                <option value="moottoripyörä">Moottoripyörä</option>
+                <option value="mopo">Mopo</option>
+                <option value="muu kulkuneuvo">Muu kulkuneuvo</option>
+            </select>
+        </div>
+
+        <button id="calculateButton">CALCULATE</button>
+
+        <div class="allowance" style="padding-top: 15px;"></div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
