@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!--
+Toteuta websivulle toiminnallisuus, jossa muutat annetut fahrenheit asteet celcius asteiksi.
+Kaava on T(°C) = (T(°F) - 32) × 5/9
+Pyöristä tulos kahteen desimaaliin.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web-kehitys - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Fahrenheit to Celsius</h1>
+
+        <div class="fahrenheit" style="padding-bottom: 15px;">
+            <label for="fahrenheit">Temperature in Fahrenheits</label>
+            <input type="number" class="fahrenheit" id="fahrenheitInput" placeholder="Fahrenheit">
+        </div>
+
+        <button id="convertButton">To Celsius</button>
+
+        <div class="celsius" style="padding-top: 15px;"></div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>

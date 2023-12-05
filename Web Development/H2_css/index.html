@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+
+<!--
+Toteuta css osuus edellisessä harjoituksessa luomalle HTML-sivullesi.
+
+Vaatimuksia ja vihjeitä
+- Sinun täytyy käyttää erillistä .css tiedostoa, jossa määrittelet kaikki tyylit.
+- Käytä yhteensopivia värejä (tekstin värit ja taustavärit sekä yhteensopivia fontteja otsikoille ja teksteille. Ks. mallia
+    https://www.w3schools.com/css/css_font_pairings.asp (Määrittele nämä css-tiedostossasi).
+    Esim.
+    * { font-family: Arial}
+    h1,h2,h3 { font-family: Times New Roman}
+- Molemmat HTML tablet pitäisi olla vain 50% koko sivun leveydestä
+- Linkeissä käytä sääntöjä
+    - Jos vierailtu (visited) -> punainen tekstin väri
+    - Jos hiiri on linkin päällä, väri on pinkki
+- Muista määritellä
+    * { box-sizing: border-box; } että saat helpommin soviteltua esim. kuvat vierekkäin sivullasi. 
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tieto- ja viestintätekniikan koulutus</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1><b>Tieto- ja viestintätekniikan koulutus</b></h1>
+
+        
+        <h2><u>Aktiviteetit</u></h2>
+
+        <ul>
+            <li><b>Orientoivat viikko</b> - 1-7.10</li>
+            <li><b>Tervetulojuhla</b> - 8.9 tapaaminen <i>Tequila</i> -ravintolassa</li>
+            <li><s><b>Excursion Pyhätunturille</b> - Lokakuussa (Cancelled)</s></li>
+        </ul>
+
+        
+        <h2><u>Kurssit syksyllä</u></h2>
+
+        <table>
+            <tr>
+                <th>Kurssi</th>
+                <th>Opintopisteet</th>
+                <th>Opettaja</th>
+            </tr>
+            <tr>
+                <td>Web-kehitys</td>
+                <td>5cr</td>
+                <td>Aku Kesti</td>
+            </tr>
+            <tr>
+                <td>Projekti</td>
+                <td>5cr</td>
+                <td>Maisa Mielikäinen</td>
+            </tr>
+            <tr>
+                <td>Matikka</td>
+                <td>5cr</td>
+                <td>Sirpa Torvinen</td>
+            </tr>
+            <tr>
+                <td>Tietokonetekniikka</td>
+                <td>5cr</td>
+                <td>Juha Petäjäjärvi</td>
+            </tr>
+        </table>
+
+        
+        <h2><u>Kuvia</u></h2>
+
+        <div class="img_container">
+            <div>
+                <p><b>Rovanimemi talvella</b></p>
+                <img src="lapland_winter.jfif" alt="">
+            </div>
+            <div>
+                <p><b>Kampus</b></p>
+                <img src="campus.jfif" alt="">
+            </div>
+            <div>
+                <p><b>Kesä Suomessa</b></p>
+                <img src="lapland_summer.jfif" alt="">
+            </div>
+            <div>
+                <p><b>Syksy Suomessa</b></p>
+                <img src="autumn.jpg" alt="">
+            </div>
+        </div>
+
+        
+        <h2><u>Hyödyllisiä linkkejä</u></h2>
+
+        <ol type="A">
+            <li><a href="https://www.lapinamk.fi/fi">Lapin AMK</a></li>
+            <li><a href="https://www.rovaniemi.fi/">Rovaniemi city</a></li>
+            <li><a href="https://opiskelija-amk.peppi4.lapit.csc.fi">Peppi</a></li>
+        </ol>
+
+        
+        <h2>Keskimääräiset lämpötilat Rovaniemiellä</h2>
+        
+        <table class="temps">
+            <tr>
+                <th>Jan</th>
+                <th>Feb</th>
+                <th>Mar</th>
+                <th>Apr</th>
+                <th>May</th>
+                <th>Jun</th>
+                <th>Jul</th>
+                <th>Aug</th>
+                <th>Sep</th>
+                <th>Oct</th>
+                <th>Nov</th>
+                <th>Dec</th>
+            </tr>
+            <tr>
+                <td>-18</td>
+                <td>-11</td>
+                <td>-5</td>
+                <td>2</td>
+                <td>5</td>
+                <td>14</td>
+                <td>18</td>
+                <td>19</td>
+                <td>15</td>
+                <td>5</td>
+                <td>-3</td>
+                <td>-10</td>
+            </tr>
+        </table>
+
+        <script src="" async defer></script>
+    </body>
+</html>

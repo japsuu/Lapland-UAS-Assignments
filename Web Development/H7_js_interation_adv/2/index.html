@@ -1,0 +1,83 @@
+<!--
+Näytä students_data.js tiedostossa olevat tiedot HTML-tablessa.
+Taulukon tulee sisältää opeiskelijan tiedot, lukuunottamatta kurssisuorituksia.
+
+Esimerkkioppilas:
+{
+    "student_id": "123456",
+    "age": 20,
+    "firstname": "Horne",
+    "lastname": "Hess",
+    "gender": "male",
+    "study_field": "Computer Science",
+    "email": "hornehess@magnafone.com",
+    "phone": "+1 (877) 436-3132",
+    "address": "745 Livingston Street, Cassel, South Dakota, 103",
+    "courses_done": [ ... ]
+}
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H7 JS iteration advanced</title>
+    <!-- Set the table style -->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS iteration advanced</h1>
+
+    <!-- Add radio buttons "All", "Men", "Women" to filter the results. -->
+    <div style="padding-bottom: 10px">
+        <label for="all">All</label>
+        <input type="radio" id="all" name="gender" value="all" checked>
+        <label for="men" style="margin-left: 10px">Men</label>
+        <input type="radio" id="men" name="gender" value="men">
+        <label for="women" style="margin-left: 10px">Women</label>
+        <input type="radio" id="women" name="gender" value="women">
+    </div>
+
+    <!-- Add a search input field for study field.
+    NOTE: This could also be a select-element like in the example, but I feel like this would be more scalable :) -->
+    <div style="padding-top: 30px; padding-bottom: 10px">
+        <label for="searchField">Search by study field:</label>
+        <input type="text" id="searchField">
+    </div>
+
+    <!-- Add the sort order selection (alphabetical, age). -->
+    <label for="sort">Sort by:</label>
+    <div style="padding-bottom: 10px" id="sort">
+        <label for="alphabetical">Alphabetical</label>
+        <input type="radio" id="alphabetical" name="sort" value="alphabetical" checked>
+        <label for="age" style="margin-left: 10px">Age</label>
+        <input type="radio" id="age" name="sort" value="age">
+    </div>
+
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>Study field</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Age</th>
+                <th>Credits</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="students_data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

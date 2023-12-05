@@ -1,0 +1,94 @@
+<!--
+Tehtävien 1-5 lopputuloksen voi esittää konsolitulostuksena eli käyttäen console.log() komentoa.
+Tavoite on harjoitella JavaScriptiä ilman että tarvitsee kuluttaa aikaa ja energiaa html sivun visuaalisuuteen.
+
+Tee graafinen websovellus, jossa esität products arrayn HTMLTable
+elementissä. Lisäksi sivulla on valikko, josta voit valita tuotteiden suodattamisen hinnan
+perusteella.
+
+var products = [
+{name: "milk", price: 1.10},
+{name: "coffee", price: 3.50},
+{name: "juice", price: 0.75},
+{name: "lemonade", price: 0.90},
+{name: "beer", price: 2.70},
+{name: "sour milk", price: 0.80}
+]
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript advanced</title>
+    <!-- Set the table style -->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products</h1>
+    <label for="maxPriceSelect">Max price</label>
+    <select id="maxPriceSelect">
+        <option value="all">All</option>
+        <option value="eur1">1€</option>
+        <option value="eur2">2€</option>
+        <option value="eur3">3€</option>
+        <option value="eur4">4€</option>
+        <option value="eur5">5€</option>
+    </select>
+
+    <table id="productsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="productsTableBody">
+        </tbody>
+    </table>
+
+    <script>
+        const products = [
+            {name: "milk", price: 1.10},
+            {name: "coffee", price: 3.50},
+            {name: "juice", price: 0.75},
+            {name: "lemonade", price: 0.90},
+            {name: "beer", price: 2.70},
+            {name: "sour milk", price: 0.80}
+        ];
+
+        const productsTableBody = document.getElementById("productsTableBody");
+        const maxPriceSelect = document.getElementById("maxPriceSelect");
+
+        function updateProductsTable() {
+            productsTableBody.innerHTML = "";
+            let maxPrice = maxPriceSelect.value;
+            if (maxPrice !== "all") {
+                maxPrice = parseFloat(maxPrice.substring(3));
+            }
+            for (let i = 0; i < products.length; i++) {
+                const product = products[i];
+                if (maxPrice === "all" || product.price <= maxPrice) {
+                    const row = document.createElement("tr");
+                    const nameCell = document.createElement("td");
+                    const priceCell = document.createElement("td");
+                    nameCell.innerHTML = product.name;
+                    priceCell.innerHTML = product.price;
+                    row.appendChild(nameCell);
+                    row.appendChild(priceCell);
+                    productsTableBody.appendChild(row);
+                }
+            }
+        }
+
+        maxPriceSelect.addEventListener("change", updateProductsTable);
+        updateProductsTable();
+    </script>
+</body>
+</html>

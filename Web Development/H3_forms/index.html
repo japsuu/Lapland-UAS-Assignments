@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tieto- ja viestintätekniikan koulutus</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <form>
+            <h1>Registration form</h1>
+            <h2>Personal Information</h2>
+            <div>
+                <label for="name">First name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="name">Last name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <fieldset>
+                <legend>Sex</legend>
+                <div><label><input type="radio" name="sex" value="female"> Female</label></div>
+                <div><label><input type="radio" name="sex" value="male"> Male</label></div>
+            </fieldset>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        
+            <h2>Study Information</h2>
+            <div>
+                <label for="programme">Programme:</label>
+                <select id="programme" name="programme" required>
+                  <option value="program1">Machine Learning</option>
+                  <option value="program2">Web Dev</option>
+                  <option value="program3">Game Programming</option>
+                </select>
+            </div>
+            <h3>Course selections spring 2023</h3>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox1" name="checkbox1">
+                <label for="checkbox1">Industrial Project</label>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+                <label for="checkbox2">Web Programming</label>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox3" name="checkbox3">
+                <label for="checkbox3">IOT</label>
+            </div>
+        
+            <h2>Other</h2>
+            <textarea rows="8" cols="25" name="other"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        <script src="" async defer></script>
+    </body>
+</html>

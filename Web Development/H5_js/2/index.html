@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!--
+Use a button to sum the numbers from two input fields and display the result.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web-kehitys - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Yhteenlasku</h1>
+
+        <!-- First product with price input -->
+        <div class="product1" style="padding-bottom: 15px;">
+            <label for="product1">Tuote 1</label>
+            <input type="number" class="price1" placeholder="Hinta">
+            <!-- Add eur sign after the input field -->
+            <span class="eur">€</span>
+        </div>
+
+        <!-- Second product with price input -->
+        <div class="product2" style="padding-bottom: 15px;">
+            <label for="product2">Tuote 2</label>
+            <input type="number" class="price2" placeholder="Hinta">
+            <!-- Add eur sign after the input field -->
+            <span class="eur">€</span>
+        </div>
+
+        <button id="sumButton">Laske summa</button>
+
+        <div class="productPriceSum"></div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
