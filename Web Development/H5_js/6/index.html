@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!--
+Tee ohjelma, jonka avulla voit laskea saamasi kilometrikorvaus tietyllä matkalla. Oletetaan,
+että kilometrikorvaus olisi 53c / km yksin matkustettaessa ja kasvaa kuljetettavien
+henkilömäärän 4 senttiä per kuljetettava henkilö.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web-kehitys - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Kilometre Allowance</h1>
+        
+        <div class="distance" style="padding-bottom: 15px;">
+            <label for="distance">Distance</label>
+            <input type="number" class="distance" id="distanceInput" placeholder="Distance">
+        </div>
+
+        <div class="passengers" style="padding-bottom: 15px;">
+            <label for="passengers">Passengers</label>
+            <input type="number" class="passengers" id="passengersInput" placeholder="Passengers">
+        </div>
+
+        <button id="calculateButton">CALCULATE</button>
+
+        <div class="allowance" style="padding-top: 15px;"></div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>

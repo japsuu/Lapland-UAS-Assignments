@@ -1,0 +1,40 @@
+<!--
+Tehtävien 1-5 lopputuloksen voi esittää konsolitulostuksena eli käyttäen console.log() komentoa.
+Tavoite on harjoitella JavaScriptiä ilman että tarvitsee kuluttaa aikaa ja energiaa html sivun visuaalisuuteen.
+
+a. Luo JS koodissa seuraava muuttuja ja tulosta muuttujan sisältö konsoliin
+hyödyntäen -silmukkarakennetta:
+const products = ["milk", "Coffee", "juice", "lemonade", "beer", "Sour milk"];
+
+b. Lajittele products taulukko aakkosjärjestykseen ja tulosta lopputulos konsoliin. Ota
+huomioon, että arrayssa on tuotteita, jotka osa alkavat isolla alkukirjaimella ja osa
+pienellä kirjaimella.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript advanced</title>
+</head>
+<body>
+<script>
+    // a.
+    console.log("a.");
+    const products = ["milk", "Coffee", "juice", "lemonade", "beer", "Sour milk"];
+    products.sort();
+    for (let i = 0; i < products.length; i++) {
+        console.log(products[i]);
+    }
+
+    // b.
+    console.log("b.");
+    products.sort(function (a, b) {
+        return a.toLowerCase().localeCompare(b.toLowerCase());
+    });
+    for (let i = 0; i < products.length; i++) {
+        console.log(products[i]);
+    }
+</script>
+</body>
+</html>
