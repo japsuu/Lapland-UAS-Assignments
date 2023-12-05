@@ -7,3 +7,6 @@ Common repo for all Lapland University of Applied Sciences assignments.
 
 ## Object-Oriented Programming
 - [All assignments](https://github.com/japsuu/Lapland-UAS-Assignments/tree/master/Object%20Oriented%20Programming)
+
+## Web Development
+- [All assignments](https://github.com/japsuu/Lapland-UAS-Assignments/tree/master/Web%20Development)
