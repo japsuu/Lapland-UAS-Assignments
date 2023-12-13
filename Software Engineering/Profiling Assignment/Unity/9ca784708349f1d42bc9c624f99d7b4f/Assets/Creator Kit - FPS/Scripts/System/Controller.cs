@@ -141,6 +141,7 @@ public class Controller : MonoBehaviour
             // Jump (we do it first as 
             if (m_Grounded && Input.GetButtonDown("Jump"))
             {
+                Debug.Log($"JumpSpeed: {JumpSpeed}");   // NOTE: Kirjataan "JumpSpeed" konsoliin
                 m_VerticalSpeed = JumpSpeed;
                 m_Grounded = false;
                 loosedGrounding = true;
@@ -237,10 +238,11 @@ public class Controller : MonoBehaviour
         }
 
 
-        for(int a = 0; a < 5000; a++)
-        {
-            GameObject.Find("Ammo" + a.ToString());
-        }
+        // NOTE: Causes performance issues
+        // for(int a = 0; a < 5000; a++)
+        // {
+        //     GameObject.Find("Ammo" + a.ToString());
+        // }
     }
 
     public void DisplayCursor(bool display)
