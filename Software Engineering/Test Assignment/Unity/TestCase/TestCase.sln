@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts.csproj", "{86096842-4967-EF26-0BC0-AF1F3C08F131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayMode", "PlayMode.csproj", "{D7E3A594-8707-44DC-EC99-8DCB734D1B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditMode", "EditMode.csproj", "{35832FDB-9929-D72C-462B-D1151ACA3A70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86096842-4967-EF26-0BC0-AF1F3C08F131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86096842-4967-EF26-0BC0-AF1F3C08F131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86096842-4967-EF26-0BC0-AF1F3C08F131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86096842-4967-EF26-0BC0-AF1F3C08F131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E3A594-8707-44DC-EC99-8DCB734D1B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E3A594-8707-44DC-EC99-8DCB734D1B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E3A594-8707-44DC-EC99-8DCB734D1B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E3A594-8707-44DC-EC99-8DCB734D1B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35832FDB-9929-D72C-462B-D1151ACA3A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35832FDB-9929-D72C-462B-D1151ACA3A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35832FDB-9929-D72C-462B-D1151ACA3A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35832FDB-9929-D72C-462B-D1151ACA3A70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
