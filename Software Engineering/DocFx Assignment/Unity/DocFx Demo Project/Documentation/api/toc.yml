@@ -1,0 +1,12 @@
+### YamlMime:TableOfContent
+- uid: DocFxForUnity
+  name: DocFxForUnity
+  items:
+  - uid: DocFxForUnity.Cube
+    name: Cube
+  - uid: DocFxForUnity.CubeColor
+    name: CubeColor
+  - uid: DocFxForUnity.CubeManager
+    name: CubeManager
+  - uid: DocFxForUnity.Player
+    name: Player

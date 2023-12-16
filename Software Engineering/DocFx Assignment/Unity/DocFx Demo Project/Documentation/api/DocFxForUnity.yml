@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxForUnity
+  commentId: N:DocFxForUnity
+  id: DocFxForUnity
+  children:
+  - DocFxForUnity.Cube
+  - DocFxForUnity.CubeColor
+  - DocFxForUnity.CubeManager
+  - DocFxForUnity.Player
+  langs:
+  - csharp
+  - vb
+  name: DocFxForUnity
+  nameWithType: DocFxForUnity
+  fullName: DocFxForUnity
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DocFxForUnity.CubeColor
+  commentId: T:DocFxForUnity.CubeColor
+  parent: DocFxForUnity
+  name: CubeColor
+  nameWithType: CubeColor
+  fullName: DocFxForUnity.CubeColor
+- uid: DocFxForUnity.Cube
+  commentId: T:DocFxForUnity.Cube
+  name: Cube
+  nameWithType: Cube
+  fullName: DocFxForUnity.Cube
+- uid: DocFxForUnity.CubeManager
+  commentId: T:DocFxForUnity.CubeManager
+  name: CubeManager
+  nameWithType: CubeManager
+  fullName: DocFxForUnity.CubeManager
+- uid: DocFxForUnity.Player
+  commentId: T:DocFxForUnity.Player
+  name: Player
+  nameWithType: Player
+  fullName: DocFxForUnity.Player
+- uid: DocFxForUnity
+  commentId: N:DocFxForUnity
+  name: DocFxForUnity
+  nameWithType: DocFxForUnity
+  fullName: DocFxForUnity

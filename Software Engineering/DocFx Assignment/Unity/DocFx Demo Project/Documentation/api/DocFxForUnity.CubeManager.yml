@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxForUnity.CubeManager
+  commentId: T:DocFxForUnity.CubeManager
+  id: CubeManager
+  parent: DocFxForUnity
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CubeManager
+  nameWithType: CubeManager
+  fullName: DocFxForUnity.CubeManager
+  type: Class
+  source:
+    id: CubeManager
+    path: ''
+    startLine: 74
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  syntax:
+    content: 'public class CubeManager : MonoBehaviour'
+    content.vb: Public Class CubeManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: DocFxForUnity
+  commentId: N:DocFxForUnity
+  name: DocFxForUnity
+  nameWithType: DocFxForUnity
+  fullName: DocFxForUnity

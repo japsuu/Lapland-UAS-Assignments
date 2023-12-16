@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxForUnity.CubeColor
+  commentId: T:DocFxForUnity.CubeColor
+  id: CubeColor
+  parent: DocFxForUnity
+  children:
+  - DocFxForUnity.CubeColor.BLUE
+  - DocFxForUnity.CubeColor.GREEN
+  - DocFxForUnity.CubeColor.RED
+  langs:
+  - csharp
+  - vb
+  name: CubeColor
+  nameWithType: CubeColor
+  fullName: DocFxForUnity.CubeColor
+  type: Enum
+  source:
+    id: CubeColor
+    path: ''
+    startLine: 7
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nCube color enum.\n"
+  example: []
+  syntax:
+    content: public enum CubeColor
+    content.vb: Public Enum CubeColor
+- uid: DocFxForUnity.CubeColor.RED
+  commentId: F:DocFxForUnity.CubeColor.RED
+  id: RED
+  parent: DocFxForUnity.CubeColor
+  langs:
+  - csharp
+  - vb
+  name: RED
+  nameWithType: CubeColor.RED
+  fullName: DocFxForUnity.CubeColor.RED
+  type: Field
+  source:
+    id: RED
+    path: ''
+    startLine: 12
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nRed color.\n"
+  example: []
+  syntax:
+    content: RED = 0
+    return:
+      type: DocFxForUnity.CubeColor
+- uid: DocFxForUnity.CubeColor.GREEN
+  commentId: F:DocFxForUnity.CubeColor.GREEN
+  id: GREEN
+  parent: DocFxForUnity.CubeColor
+  langs:
+  - csharp
+  - vb
+  name: GREEN
+  nameWithType: CubeColor.GREEN
+  fullName: DocFxForUnity.CubeColor.GREEN
+  type: Field
+  source:
+    id: GREEN
+    path: ''
+    startLine: 16
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nGreen color.\n"
+  example: []
+  syntax:
+    content: GREEN = 1
+    return:
+      type: DocFxForUnity.CubeColor
+- uid: DocFxForUnity.CubeColor.BLUE
+  commentId: F:DocFxForUnity.CubeColor.BLUE
+  id: BLUE
+  parent: DocFxForUnity.CubeColor
+  langs:
+  - csharp
+  - vb
+  name: BLUE
+  nameWithType: CubeColor.BLUE
+  fullName: DocFxForUnity.CubeColor.BLUE
+  type: Field
+  source:
+    id: BLUE
+    path: ''
+    startLine: 20
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nBlue color.\n"
+  example: []
+  syntax:
+    content: BLUE = 2
+    return:
+      type: DocFxForUnity.CubeColor
+references:
+- uid: DocFxForUnity
+  commentId: N:DocFxForUnity
+  name: DocFxForUnity
+  nameWithType: DocFxForUnity
+  fullName: DocFxForUnity
+- uid: DocFxForUnity.CubeColor
+  commentId: T:DocFxForUnity.CubeColor
+  parent: DocFxForUnity
+  name: CubeColor
+  nameWithType: CubeColor
+  fullName: DocFxForUnity.CubeColor

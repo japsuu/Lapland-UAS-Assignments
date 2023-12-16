@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxForUnity.Cube
+  commentId: T:DocFxForUnity.Cube
+  id: Cube
+  parent: DocFxForUnity
+  children:
+  - DocFxForUnity.Cube.ChangeCubeColor(DocFxForUnity.CubeColor)
+  - DocFxForUnity.Cube.Move(Vector3)
+  - DocFxForUnity.Cube.Rotate(Quaternion)
+  - DocFxForUnity.Cube.Scale(Vector3)
+  langs:
+  - csharp
+  - vb
+  name: Cube
+  nameWithType: Cube
+  fullName: DocFxForUnity.Cube
+  type: Class
+  source:
+    id: Cube
+    path: ''
+    startLine: 28
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nBasic example cube class. Can move, rotate, and scale.\nCreates a cube primitive to scene.\n"
+  example: []
+  syntax:
+    content: 'public class Cube : MonoBehaviour'
+    content.vb: Public Class Cube Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: DocFxForUnity.Cube.Rotate(Quaternion)
+  commentId: M:DocFxForUnity.Cube.Rotate(Quaternion)
+  id: Rotate(Quaternion)
+  parent: DocFxForUnity.Cube
+  langs:
+  - csharp
+  - vb
+  name: Rotate(Quaternion)
+  nameWithType: Cube.Rotate(Quaternion)
+  fullName: DocFxForUnity.Cube.Rotate(Quaternion)
+  type: Method
+  source:
+    id: Rotate
+    path: ''
+    startLine: 34
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nRotates the cube.\n"
+  example: []
+  syntax:
+    content: public void Rotate(Quaternion rot)
+    parameters:
+    - id: rot
+      type: Global.Quaternion
+      description: The new rotation of the cube
+    content.vb: Public Sub Rotate(rot As Quaternion)
+  overload: DocFxForUnity.Cube.Rotate*
+- uid: DocFxForUnity.Cube.Move(Vector3)
+  commentId: M:DocFxForUnity.Cube.Move(Vector3)
+  id: Move(Vector3)
+  parent: DocFxForUnity.Cube
+  langs:
+  - csharp
+  - vb
+  name: Move(Vector3)
+  nameWithType: Cube.Move(Vector3)
+  fullName: DocFxForUnity.Cube.Move(Vector3)
+  type: Method
+  source:
+    id: Move
+    path: ''
+    startLine: 44
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nMoves the cube.\n"
+  example: []
+  syntax:
+    content: public void Move(Vector3 pos)
+    parameters:
+    - id: pos
+      type: Global.Vector3
+      description: Position to move to
+    content.vb: Public Sub Move(pos As Vector3)
+  overload: DocFxForUnity.Cube.Move*
+- uid: DocFxForUnity.Cube.Scale(Vector3)
+  commentId: M:DocFxForUnity.Cube.Scale(Vector3)
+  id: Scale(Vector3)
+  parent: DocFxForUnity.Cube
+  langs:
+  - csharp
+  - vb
+  name: Scale(Vector3)
+  nameWithType: Cube.Scale(Vector3)
+  fullName: DocFxForUnity.Cube.Scale(Vector3)
+  type: Method
+  source:
+    id: Scale
+    path: ''
+    startLine: 54
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nScales the cube.\n"
+  example: []
+  syntax:
+    content: public void Scale(Vector3 scale)
+    parameters:
+    - id: scale
+      type: Global.Vector3
+      description: Scale to scale to
+    content.vb: Public Sub Scale(scale As Vector3)
+  overload: DocFxForUnity.Cube.Scale*
+- uid: DocFxForUnity.Cube.ChangeCubeColor(DocFxForUnity.CubeColor)
+  commentId: M:DocFxForUnity.Cube.ChangeCubeColor(DocFxForUnity.CubeColor)
+  id: ChangeCubeColor(DocFxForUnity.CubeColor)
+  parent: DocFxForUnity.Cube
+  langs:
+  - csharp
+  - vb
+  name: ChangeCubeColor(CubeColor)
+  nameWithType: Cube.ChangeCubeColor(CubeColor)
+  fullName: DocFxForUnity.Cube.ChangeCubeColor(DocFxForUnity.CubeColor)
+  type: Method
+  source:
+    id: ChangeCubeColor
+    path: ''
+    startLine: 64
+  assemblies:
+  - cs.temp.dll
+  namespace: DocFxForUnity
+  summary: "\nChanges the color of the cube.\n"
+  example: []
+  syntax:
+    content: public void ChangeCubeColor(CubeColor color = CubeColor.RED)
+    parameters:
+    - id: color
+      type: DocFxForUnity.CubeColor
+      description: Color to change to
+    content.vb: Public Sub ChangeCubeColor(color As CubeColor = CubeColor.RED)
+  overload: DocFxForUnity.Cube.ChangeCubeColor*
+references:
+- uid: DocFxForUnity
+  commentId: N:DocFxForUnity
+  name: DocFxForUnity
+  nameWithType: DocFxForUnity
+  fullName: DocFxForUnity
+- uid: DocFxForUnity.Cube.Rotate*
+  commentId: Overload:DocFxForUnity.Cube.Rotate
+  name: Rotate
+  nameWithType: Cube.Rotate
+  fullName: DocFxForUnity.Cube.Rotate
+- uid: Global.Quaternion
+  commentId: '!:Global.Quaternion'
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Quaternion
+- uid: DocFxForUnity.Cube.Move*
+  commentId: Overload:DocFxForUnity.Cube.Move
+  name: Move
+  nameWithType: Cube.Move
+  fullName: DocFxForUnity.Cube.Move
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: DocFxForUnity.Cube.Scale*
+  commentId: Overload:DocFxForUnity.Cube.Scale
+  name: Scale
+  nameWithType: Cube.Scale
+  fullName: DocFxForUnity.Cube.Scale
+- uid: DocFxForUnity.Cube.ChangeCubeColor*
+  commentId: Overload:DocFxForUnity.Cube.ChangeCubeColor
+  name: ChangeCubeColor
+  nameWithType: Cube.ChangeCubeColor
+  fullName: DocFxForUnity.Cube.ChangeCubeColor
+- uid: DocFxForUnity.CubeColor
+  commentId: T:DocFxForUnity.CubeColor
+  parent: DocFxForUnity
+  name: CubeColor
+  nameWithType: CubeColor
+  fullName: DocFxForUnity.CubeColor

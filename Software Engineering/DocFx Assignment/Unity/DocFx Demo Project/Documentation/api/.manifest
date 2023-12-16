@@ -1,0 +1,19 @@
+{
+  "DocFxForUnity": "DocFxForUnity.yml",
+  "DocFxForUnity.Cube": "DocFxForUnity.Cube.yml",
+  "DocFxForUnity.Cube.ChangeCubeColor(DocFxForUnity.CubeColor)": "DocFxForUnity.Cube.yml",
+  "DocFxForUnity.Cube.Move(Vector3)": "DocFxForUnity.Cube.yml",
+  "DocFxForUnity.Cube.Rotate(Quaternion)": "DocFxForUnity.Cube.yml",
+  "DocFxForUnity.Cube.Scale(Vector3)": "DocFxForUnity.Cube.yml",
+  "DocFxForUnity.CubeColor": "DocFxForUnity.CubeColor.yml",
+  "DocFxForUnity.CubeColor.BLUE": "DocFxForUnity.CubeColor.yml",
+  "DocFxForUnity.CubeColor.GREEN": "DocFxForUnity.CubeColor.yml",
+  "DocFxForUnity.CubeColor.RED": "DocFxForUnity.CubeColor.yml",
+  "DocFxForUnity.CubeManager": "DocFxForUnity.CubeManager.yml",
+  "DocFxForUnity.Player": "DocFxForUnity.Player.yml",
+  "DocFxForUnity.Player.IsGrounded": "DocFxForUnity.Player.yml",
+  "DocFxForUnity.Player.Move": "DocFxForUnity.Player.yml",
+  "DocFxForUnity.Player.Move(Vector3)": "DocFxForUnity.Player.yml",
+  "DocFxForUnity.Player.PlayerCount": "DocFxForUnity.Player.yml",
+  "DocFxForUnity.Player.Speed": "DocFxForUnity.Player.yml"
+}
