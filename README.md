@@ -7,6 +7,9 @@ Common repo for all Lapland University of Applied Sciences assignments.
 - [Profiling Assignment](https://github.com/japsuu/Lapland-UAS-Assignments/tree/master/Software%20Engineering/Profiling%20Assignment)
 - [Testing Assignment](https://github.com/japsuu/Lapland-UAS-Assignments/tree/master/Software%20Engineering/Test%20Assignment)
 
+## Computer Technology
+- [MIPS assembly](https://github.com/japsuu/Lapland-UAS-Assignments/tree/master/Computer%20Technology/MIPS%20Assembly)
+
 ## Object-Oriented Programming
 - [All assignments](https://github.com/japsuu/Lapland-UAS-Assignments/tree/master/Object%20Oriented%20Programming)
 
